@@ -1,7 +1,11 @@
+// DPM: this code ran successfully, hookup pin D1, second from end of board. 2019.11.01
+
+//#define FASTLED_ESP8266_NODEMCU_PIN_ORDER
+#define FASTLED_ESP8266_RAW_PIN_ORDER // Required to properly define pins on my ESP
 #include <FastLED.h>
 
 #define LED_PIN     5
-#define NUM_LEDS    50
+#define NUM_LEDS    18
 #define BRIGHTNESS  64
 #define LED_TYPE    WS2811
 #define COLOR_ORDER GRB
